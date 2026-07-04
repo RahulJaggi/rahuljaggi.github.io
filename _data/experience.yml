@@ -1,10 +1,10 @@
 - company: "SingleInterface"
   logo: "SI"
-  total: "9 years 3 months"
+  total: "11 years 2 months"
   roles:
     - title: "Senior Principal Software Engineer"
-      period: "Apr 2020 – June 2024"
-      duration: "4 years 3 months"
+      period: "Apr 2022 – June 2026"
+      duration: "4 years 2 months"
       location: "Gurugram"
       description: "Led end-to-end SDLC for enterprise SaaS applications, delivering scalable full-stack solutions from requirement analysis and solution design to development, deployment, and production support."
       achievements:
@@ -19,16 +19,16 @@
         - "Worked in Agile/Scrum environments, contributing to sprint planning, technical estimation, backlog refinement, release planning, and successful product delivery"
 
     - title: "Frontend Team Lead"
-      period: "Apr 2018 – Mar 2020"
-      duration: "2 years"
+      period: "Apr 2017 – Mar 2022"
+      duration: "5 years"
       location: "Gurugram"
       description: "Led a team of frontend developers ensuring high-quality code delivery and adherence to project timelines. Implemented best practices in frontend development to enhance product quality."
       achievements:
         - "Led team to meet project deadlines while maintaining high code quality standards"
 
     - title: "Senior Frontend Developer"
-      period: "Apr 2015 – Mar 2018"
-      duration: "3 years"
+      period: "Apr 2015 – Mar 2017"
+      duration: "2 years"
       location: "Gurugram"
       description: "Contributed to development of various frontend applications, focusing on user experience and performance optimization. Collaborated with cross-functional teams to deliver high-quality software."
       achievements:
