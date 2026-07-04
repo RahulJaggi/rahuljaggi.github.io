@@ -1,19 +1,19 @@
 ---
 ---
 
-@use "variables";
-@use "base";
-@use "typography";
-@use "components";
-@use "layout";
-@use "hero";
-@use "about";
-@use "skills";
-@use "experience";
-@use "projects";
-@use "blog";
-@use "contact";
-@use "footer";
-@use "nav";
-@use "animations";
-@use "responsive";
+@import "variables";
+@import "base";
+@import "typography";
+@import "components";
+@import "layout";
+@import "hero";
+@import "about";
+@import "skills";
+@import "experience";
+@import "projects";
+@import "blog";
+@import "contact";
+@import "footer";
+@import "nav";
+@import "animations";
+@import "responsive";
