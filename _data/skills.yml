@@ -1,58 +1,62 @@
-- name: "Languages"
-  icon: "💻"
-  items:
-    - JavaScript
-    - TypeScript
-    - Python
-    - Java
-    - Go
-    - SQL
-
 - name: "Frontend"
   icon: "🎨"
   items:
-    - React
+    - React.js
     - Next.js
-    - HTML5
-    - CSS3 / SCSS
-    - Tailwind CSS
+    - React Native
+    - JavaScript (ES6+)
+    - TypeScript
+    - HTML5 / CSS3
     - Redux
+    - GraphQL
 
 - name: "Backend"
   icon: "⚙️"
   items:
     - Node.js
-    - Express
-    - Django
+    - NestJS
     - REST APIs
     - GraphQL
     - Microservices
+    - Authentication & Authorization
+    - Performance Optimization
+
+- name: "AI & LLMs"
+  icon: "🤖"
+  items:
+    - OpenAI APIs
+    - Generative AI
+    - LLM Integration
+    - Prompt Engineering
+    - RAG (Retrieval-Augmented Generation)
+    - AI Automation
+    - Sentiment Analysis
+
+- name: "Databases"
+  icon: "🗄️"
+  items:
+    - SQL (Relational)
+    - NoSQL (MongoDB)
+    - Database Design
+    - Query Optimization
 
 - name: "Cloud & DevOps"
   icon: "☁️"
   items:
     - AWS
+    - Cloud-Native Development
+    - CI/CD Pipelines
     - Docker
-    - Kubernetes
-    - GitHub Actions
-    - CI/CD
-    - Nginx
-
-- name: "Databases"
-  icon: "🗄️"
-  items:
-    - PostgreSQL
-    - MongoDB
-    - Redis
-    - MySQL
-    - Firebase
-
-- name: "Tools"
-  icon: "🛠️"
-  items:
+    - Agile / Scrum
     - Git
-    - VS Code
-    - Figma
-    - Postman
-    - Jest
-    - Linux
+
+- name: "Leadership"
+  icon: "🏆"
+  items:
+    - Technical Leadership
+    - Team Mentoring
+    - System Design
+    - Architecture Reviews
+    - Stakeholder Management
+    - Sprint Planning
+    - Agile Program Management

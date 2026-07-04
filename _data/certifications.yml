@@ -1,0 +1,11 @@
+- name: "Enterprise System Design Associate 10.5"
+  issuer: "Certification Body"
+  icon: "🏅"
+
+- name: "Generative AI"
+  issuer: "Professional Certification"
+  icon: "🤖"
+
+- name: "Graphic And Web Designing"
+  issuer: "Professional Certification"
+  icon: "🎨"

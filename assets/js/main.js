@@ -199,21 +199,26 @@
   const navLinkEls = document.querySelectorAll('.nav__link');
 
   if (sections.length && navLinkEls.length) {
-    window.addEventListener('scroll', () => {
+    const updateActiveLink = () => {
       let currentSection = '';
       sections.forEach(sec => {
-        if (window.scrollY >= sec.offsetTop - 100) {
+        const sectionTop = sec.offsetTop - 120;
+        if (window.scrollY >= sectionTop) {
           currentSection = sec.id;
         }
       });
 
       navLinkEls.forEach(link => {
         link.classList.remove('active');
-        if (link.getAttribute('href').includes(currentSection)) {
+        const href = link.getAttribute('href') || '';
+        if (currentSection && href.includes('#' + currentSection)) {
           link.classList.add('active');
         }
       });
-    }, { passive: true });
+    };
+
+    window.addEventListener('scroll', updateActiveLink, { passive: true });
+    updateActiveLink(); // run on load
   }
 
 })();

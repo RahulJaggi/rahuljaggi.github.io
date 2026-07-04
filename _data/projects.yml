@@ -1,69 +1,76 @@
-- title: "DevConnect"
-  icon: "🔗"
-  description: "A real-time developer collaboration platform with live code sharing, video calls, and integrated GitHub workflow. Built to help remote teams pair-program effectively."
+- title: "Nova Platform"
+  icon: "🚀"
+  description: "Led end-to-end delivery of the Nova enterprise SaaS platform, directing cross-functional engineering teams of 15+ professionals. Architected solutions across React, Node.js, NoSQL, and AWS ecosystems ensuring scalability and operational excellence."
   tech:
-    - React
+    - React.js
     - Node.js
-    - WebSocket
-    - PostgreSQL
-    - Docker
-  github: "https://github.com/rahuljaggi/devconnect"
+    - AWS
+    - NoSQL
+    - Agile
+  github: ""
   live: ""
+  highlight: "Accelerated delivery timelines by 25% through Agile transformation"
 
-- title: "TaskFlow"
-  icon: "📋"
-  description: "A sleek project management tool with drag-and-drop boards, automated workflows, and team analytics. Handles complex task dependencies with ease."
+- title: "Connect App"
+  icon: "📱"
+  description: "Spearheaded development and delivery of the Connect mobile application using React Native. Established a scalable mobile architecture, drove engineering optimizations, and significantly improved application performance and user experience."
+  tech:
+    - React Native
+    - JavaScript
+    - TypeScript
+    - REST APIs
+  github: ""
+  live: ""
+  highlight: "Improved application scalability and user satisfaction"
+
+- title: "AI-Powered Call Intelligence"
+  icon: "🎙️"
+  description: "Built intelligent AI features including call transcription, conversation summarization, and sentiment analysis using OpenAI APIs and LLMs. Leveraged Retrieval-Augmented Generation (RAG) to enhance customer engagement and operational efficiency."
+  tech:
+    - OpenAI API
+    - LLMs
+    - RAG
+    - Node.js
+    - NestJS
+  github: ""
+  live: ""
+  highlight: "Enhanced operational efficiency through AI automation"
+
+- title: "Enterprise SaaS Architecture"
+  icon: "🏗️"
+  description: "Designed and delivered scalable enterprise SaaS applications implementing secure authentication & authorization, optimized GraphQL/REST APIs, and modern frontend architecture for enterprise-grade performance and maintainability."
   tech:
     - Next.js
+    - NestJS
+    - GraphQL
     - TypeScript
-    - Prisma
     - PostgreSQL
-    - Tailwind CSS
-  github: "https://github.com/rahuljaggi/taskflow"
+  github: ""
   live: ""
+  highlight: "Reduced production defects by 30% through enhanced QA processes"
 
-- title: "CodeSnap"
-  icon: "📸"
-  description: "A beautiful code screenshot generator with 20+ themes, custom window frames, and one-click sharing. Used by 500+ developers on Product Hunt."
+- title: "AI Workflow Automation"
+  icon: "⚡"
+  description: "Developed AI-powered workflow automation systems and AI assistants using Prompt Engineering and LLMs. Built intelligent features that automated business processes, improving team productivity and reducing manual overhead."
   tech:
-    - React
-    - Canvas API
-    - Vite
-    - CSS
-  github: "https://github.com/rahuljaggi/codesnap"
+    - OpenAI
+    - Prompt Engineering
+    - Node.js
+    - React.js
+    - AWS
+  github: ""
   live: ""
+  highlight: "20% improvement in engineering team productivity"
 
-- title: "WeatherNow"
-  icon: "🌤️"
-  description: "A minimalist weather app with 7-day forecasts, weather maps, and location-based alerts. Features beautiful animated weather icons and offline support."
+- title: "Frontend Engineering Platform"
+  icon: "💻"
+  description: "Led frontend teams in establishing standardized development methodologies and best practices. Implemented performance optimization strategies resulting in significantly improved user experience across multiple enterprise products."
   tech:
-    - JavaScript
-    - OpenWeather API
-    - PWA
-    - Service Workers
-  github: "https://github.com/rahuljaggi/weathernow"
+    - React.js
+    - TypeScript
+    - Redux
+    - GraphQL
+    - CSS3
+  github: ""
   live: ""
-
-- title: "AI Resume Builder"
-  icon: "🤖"
-  description: "AI-powered resume generator that crafts tailored resumes based on job descriptions. Uses GPT-4 to optimize keywords and improve ATS compatibility."
-  tech:
-    - Python
-    - FastAPI
-    - OpenAI API
-    - React
-    - Redis
-  github: "https://github.com/rahuljaggi/ai-resume"
-  live: ""
-
-- title: "CryptoTrack"
-  icon: "📈"
-  description: "A real-time cryptocurrency portfolio tracker with price alerts, P&L charts, and multi-exchange support. Syncs with 15+ crypto exchanges via APIs."
-  tech:
-    - React
-    - Python
-    - WebSocket
-    - Chart.js
-    - MongoDB
-  github: "https://github.com/rahuljaggi/cryptotrack"
-  live: ""
+  highlight: "35% increase in sprint predictability through effective management"

@@ -24,12 +24,12 @@
 
   &__image-frame {
     position: relative;
-    width: 260px;
-    height: 260px;
+    width: 220px;
+    height: 220px;
 
     @media (max-width: 900px) {
-      width: 200px;
-      height: 200px;
+      width: 180px;
+      height: 180px;
     }
   }
 

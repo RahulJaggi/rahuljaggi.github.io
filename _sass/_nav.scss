@@ -97,12 +97,17 @@
       transition: width var(--transition-base);
     }
 
-    &:hover {
+    &:hover,
+    &.active {
       color: var(--color-text);
 
       &::after {
         width: 100%;
       }
+    }
+
+    &.active {
+      color: var(--color-primary-light);
     }
   }
 

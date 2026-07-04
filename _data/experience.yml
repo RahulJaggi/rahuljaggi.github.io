@@ -1,0 +1,72 @@
+- company: "SingleInterface"
+  logo: "SI"
+  total: "11 years 4 months"
+  roles:
+    - title: "Senior Technical Project Manager"
+      period: "Apr 2023 – Present"
+      duration: "3 years 4 months"
+      location: "Gurugram"
+      description: "Lead end-to-end delivery of the Nova platform, directing cross-functional engineering teams of 15+ professionals. Drive Agile program execution through sprint planning, release governance, and stakeholder engagement."
+      achievements:
+        - "Accelerated enterprise product delivery timelines by 25% through Agile transformation"
+        - "Improved engineering team productivity by 20% via standardised delivery frameworks"
+        - "Reduced production defects by 30% through enhanced quality assurance processes"
+        - "Increased sprint predictability by 35% through effective backlog prioritisation"
+
+    - title: "Senior Principal Software Engineer"
+      period: "Apr 2020 – Mar 2023"
+      duration: "3 years"
+      location: "Gurugram"
+      description: "Spearheaded development and delivery of the Connect App using React Native, establishing a scalable mobile application architecture. Enhanced performance and influenced key architectural decisions."
+      achievements:
+        - "Improved application scalability and stability significantly"
+        - "Enhanced overall performance and user satisfaction"
+
+    - title: "Frontend Team Lead"
+      period: "Apr 2018 – Mar 2020"
+      duration: "2 years"
+      location: "Gurugram"
+      description: "Led a team of frontend developers ensuring high-quality code delivery and adherence to project timelines. Implemented best practices in frontend development to enhance product quality."
+      achievements:
+        - "Led team to meet project deadlines while maintaining high code quality standards"
+
+    - title: "Senior Frontend Developer"
+      period: "Apr 2015 – Mar 2018"
+      duration: "3 years"
+      location: "Gurugram"
+      description: "Contributed to development of various frontend applications, focusing on user experience and performance optimization. Collaborated with cross-functional teams to deliver high-quality software."
+      achievements:
+        - "Key role in enhancing application performance and user engagement"
+
+- company: "Parangat Technologies"
+  logo: "PT"
+  roles:
+    - title: "Frontend Developer"
+      period: "Nov 2014 – Apr 2015"
+      duration: "6 months"
+      location: "Noida"
+      description: "Designed and implemented user interfaces for web applications, ensuring a seamless user experience. Collaborated with designers and backend developers to create responsive and visually appealing applications."
+      achievements:
+        - "Delivered multiple projects on time contributing to improved user satisfaction"
+
+- company: "Rosensoft Technologies"
+  logo: "RT"
+  roles:
+    - title: "Frontend Developer"
+      period: "Oct 2013 – Sep 2014"
+      duration: "1 year"
+      location: "Noida"
+      description: "Developed frontend components for web applications, working closely with the design team to implement user-friendly interfaces."
+      achievements:
+        - "Contributed to successful launch of several web applications"
+
+- company: "Magic Software Inc."
+  logo: "MS"
+  roles:
+    - title: "Frontend Developer"
+      period: "Feb 2013 – Oct 2013"
+      duration: "9 months"
+      location: "Noida Area, India"
+      description: "Created and maintained user interfaces for various software applications, ensuring high performance and responsiveness."
+      achievements:
+        - "Improved application usability and performance through effective frontend techniques"
