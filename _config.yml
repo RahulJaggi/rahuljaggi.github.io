@@ -15,6 +15,10 @@ author:
   linkedin: "rahul-jaggi-9a160379"
   twitter: "rahuljaggi"
   availability: "Immediate Joiner"
+  avatar: "/assets/images/rahul-jaggi.png"
+
+# OG Image for social sharing
+image: "/assets/images/rahul-jaggi.png"
 
 # Build Settings
 markdown: kramdown
