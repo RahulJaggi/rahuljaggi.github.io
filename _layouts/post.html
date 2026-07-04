@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<article class="post-page">
+  <header class="post-header">
+    <div class="container">
+      <div class="post-header__meta">
+        <a href="/blog/" class="back-link">← Blog</a>
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      </div>
+      <h1 class="post-header__title">{{ page.title }}</h1>
+      {% if page.tags.size > 0 %}
+      <div class="post-header__tags">
+        {% for tag in page.tags %}
+        <span class="post-tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </header>
+  <div class="post-content container">
+    {{ content }}
+  </div>
+  <footer class="post-footer container">
+    <a href="/blog/" class="btn btn--ghost">← Back to Blog</a>
+  </footer>
+</article>

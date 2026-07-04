@@ -1,0 +1,60 @@
+---
+layout: default
+title: "404 — Page Not Found | Rahul Jaggi"
+description: "Oops! This page doesn't exist."
+permalink: /404.html
+---
+
+<section class="error-page">
+  <div class="container">
+    <div class="error-page__content">
+      <div class="error-page__code animate-fade-up">404</div>
+      <h1 class="error-page__title animate-fade-up" style="animation-delay: 0.1s">Page Not Found</h1>
+      <p class="error-page__desc animate-fade-up" style="animation-delay: 0.2s">
+        Looks like this page has drifted off into the void. Let's get you back on track.
+      </p>
+      <div class="animate-fade-up" style="animation-delay: 0.3s">
+        <a href="{{ '/' | relative_url }}" class="btn btn--primary" id="back-home-btn">Go Back Home</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.error-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--nav-height) var(--space-6) var(--space-20);
+}
+
+.error-page__content {
+  max-width: 500px;
+}
+
+.error-page__code {
+  font-family: var(--font-mono);
+  font-size: clamp(6rem, 20vw, 10rem);
+  font-weight: 900;
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+  margin-bottom: var(--space-4);
+  letter-spacing: -0.05em;
+}
+
+.error-page__title {
+  font-size: var(--text-3xl);
+  margin-bottom: var(--space-4);
+}
+
+.error-page__desc {
+  font-size: var(--text-lg);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-8);
+}
+</style>

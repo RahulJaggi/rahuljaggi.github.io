@@ -1,0 +1,23 @@
+<nav class="nav" id="main-nav">
+  <div class="nav__container container">
+    <a href="{{ '/' | relative_url }}" class="nav__logo" id="nav-logo">
+      <span class="nav__logo-text">RJ</span>
+      <span class="nav__logo-dot"></span>
+    </a>
+
+    <div class="nav__links" id="nav-links">
+      <a href="{{ '/#about' | relative_url }}" class="nav__link" id="nav-about">About</a>
+      <a href="{{ '/#skills' | relative_url }}" class="nav__link" id="nav-skills">Skills</a>
+      <a href="{{ '/#projects' | relative_url }}" class="nav__link" id="nav-projects">Projects</a>
+      <a href="{{ '/#blog' | relative_url }}" class="nav__link" id="nav-blog">Blog</a>
+      <a href="{{ '/#contact' | relative_url }}" class="nav__link" id="nav-contact">Contact</a>
+      <a href="{{ '/#contact' | relative_url }}" class="btn btn--primary btn--sm" id="nav-hire-btn">Hire Me</a>
+    </div>
+
+    <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="nav__toggle-line"></span>
+      <span class="nav__toggle-line"></span>
+      <span class="nav__toggle-line"></span>
+    </button>
+  </div>
+</nav>

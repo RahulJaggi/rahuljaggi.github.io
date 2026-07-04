@@ -1,0 +1,69 @@
+- title: "DevConnect"
+  icon: "🔗"
+  description: "A real-time developer collaboration platform with live code sharing, video calls, and integrated GitHub workflow. Built to help remote teams pair-program effectively."
+  tech:
+    - React
+    - Node.js
+    - WebSocket
+    - PostgreSQL
+    - Docker
+  github: "https://github.com/rahuljaggi/devconnect"
+  live: ""
+
+- title: "TaskFlow"
+  icon: "📋"
+  description: "A sleek project management tool with drag-and-drop boards, automated workflows, and team analytics. Handles complex task dependencies with ease."
+  tech:
+    - Next.js
+    - TypeScript
+    - Prisma
+    - PostgreSQL
+    - Tailwind CSS
+  github: "https://github.com/rahuljaggi/taskflow"
+  live: ""
+
+- title: "CodeSnap"
+  icon: "📸"
+  description: "A beautiful code screenshot generator with 20+ themes, custom window frames, and one-click sharing. Used by 500+ developers on Product Hunt."
+  tech:
+    - React
+    - Canvas API
+    - Vite
+    - CSS
+  github: "https://github.com/rahuljaggi/codesnap"
+  live: ""
+
+- title: "WeatherNow"
+  icon: "🌤️"
+  description: "A minimalist weather app with 7-day forecasts, weather maps, and location-based alerts. Features beautiful animated weather icons and offline support."
+  tech:
+    - JavaScript
+    - OpenWeather API
+    - PWA
+    - Service Workers
+  github: "https://github.com/rahuljaggi/weathernow"
+  live: ""
+
+- title: "AI Resume Builder"
+  icon: "🤖"
+  description: "AI-powered resume generator that crafts tailored resumes based on job descriptions. Uses GPT-4 to optimize keywords and improve ATS compatibility."
+  tech:
+    - Python
+    - FastAPI
+    - OpenAI API
+    - React
+    - Redis
+  github: "https://github.com/rahuljaggi/ai-resume"
+  live: ""
+
+- title: "CryptoTrack"
+  icon: "📈"
+  description: "A real-time cryptocurrency portfolio tracker with price alerts, P&L charts, and multi-exchange support. Syncs with 15+ crypto exchanges via APIs."
+  tech:
+    - React
+    - Python
+    - WebSocket
+    - Chart.js
+    - MongoDB
+  github: "https://github.com/rahuljaggi/cryptotrack"
+  live: ""

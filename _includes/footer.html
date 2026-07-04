@@ -1,0 +1,35 @@
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="{{ '/' | relative_url }}" class="nav__logo" id="footer-logo">
+          <span class="nav__logo-text">RJ</span>
+          <span class="nav__logo-dot"></span>
+        </a>
+        <p class="footer__tagline">Building the web, one commit at a time.</p>
+        {% include social-links.html %}
+      </div>
+      <div class="footer__nav">
+        <h4 class="footer__nav-title">Navigation</h4>
+        <ul class="footer__nav-list">
+          <li><a href="{{ '/#about' | relative_url }}" class="footer__link">About</a></li>
+          <li><a href="{{ '/#skills' | relative_url }}" class="footer__link">Skills</a></li>
+          <li><a href="{{ '/#projects' | relative_url }}" class="footer__link">Projects</a></li>
+          <li><a href="{{ '/#blog' | relative_url }}" class="footer__link">Blog</a></li>
+          <li><a href="{{ '/#contact' | relative_url }}" class="footer__link">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__nav">
+        <h4 class="footer__nav-title">Connect</h4>
+        <ul class="footer__nav-list">
+          <li><a href="https://github.com/rahuljaggi" target="_blank" rel="noopener" class="footer__link">GitHub</a></li>
+          <li><a href="https://linkedin.com/in/rahuljaggi" target="_blank" rel="noopener" class="footer__link">LinkedIn</a></li>
+          <li><a href="mailto:your@email.com" class="footer__link">Email</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; {{ 'now' | date: "%Y" }} Rahul Jaggi. Built with <span class="heart">♥</span> using Jekyll &amp; GitHub Pages.</p>
+    </div>
+  </div>
+</footer>
