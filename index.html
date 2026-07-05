@@ -309,34 +309,6 @@ description: "Senior Full Stack Engineer and Technical Leader with 13+ years of 
   </div>
 </section>
 
-<!-- BLOG SECTION -->
-<section class="blog section section--alt" id="blog">
-  <div class="container">
-    <div class="section__header">
-      <span class="section__label">My Thoughts</span>
-      <h2 class="section__title">Latest <span class="gradient-text">Posts</span></h2>
-    </div>
-    <div class="blog__grid">
-      {% for post in site.posts limit:3 %}
-      <article class="blog-card reveal" id="post-{{ forloop.index }}">
-        <div class="blog-card__meta">
-          <time class="blog-card__date" datetime="{{ post.date | date_to_xmlschema }}">
-            {{ post.date | date: "%b %d, %Y" }}
-          </time>
-          {% if post.tags.size > 0 %}
-          <span class="blog-card__tag">{{ post.tags[0] }}</span>
-          {% endif %}
-        </div>
-        <h3 class="blog-card__title">
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        </h3>
-        <p class="blog-card__excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
-        <a href="{{ post.url | relative_url }}" class="blog-card__link">Read More →</a>
-      </article>
-      {% endfor %}
-    </div>
-  </div>
-</section>
 
 <!-- CONTACT SECTION -->
 <section class="contact section" id="contact">
