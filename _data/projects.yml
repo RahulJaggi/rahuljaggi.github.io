@@ -1,3 +1,52 @@
+- title: "Next.js Enterprise Admin"
+  icon: "⚙️"
+  description: "Production-ready Enterprise Admin Panel built with Next.js 15, React 19, TypeScript, Tailwind CSS, Shadcn UI, Zustand, TanStack Query, and scalable feature-based architecture."
+  tech:
+    - Next.js 15
+    - React 19
+    - TypeScript
+    - Tailwind CSS
+    - Shadcn UI
+    - Zustand
+  github: "https://github.com/RahulJaggi/nextjs-enterprise-admin"
+  live: ""
+  highlight: "Production-ready scalable feature-based admin architecture"
+
+- title: "Vertex UI"
+  icon: "🎨"
+  description: "Enterprise-grade React Component Library built with React, TypeScript, Tailwind CSS, and Storybook."
+  tech:
+    - React
+    - TypeScript
+    - Tailwind CSS
+    - Storybook
+  github: "https://github.com/RahulJaggi/vertex-ui"
+  live: ""
+  highlight: "Enterprise component library for modern web applications"
+
+- title: "Enterprise SaaS Dashboard"
+  icon: "📊"
+  description: "Enterprise SaaS Dashboard built with Next.js, TypeScript, Tailwind CSS, and modern web standards."
+  tech:
+    - Next.js
+    - TypeScript
+    - Tailwind CSS
+    - React
+  github: "https://github.com/RahulJaggi/enterprise-saas-dashboard"
+  live: ""
+  highlight: "Scalable SaaS analytics and management dashboard"
+
+- title: "Kashio"
+  icon: "💳"
+  description: "Financial management & payment integration platform."
+  tech:
+    - JavaScript
+    - Node.js
+    - REST APIs
+  github: "https://github.com/RahulJaggi/kashio"
+  live: ""
+  highlight: "Payment integration & financial management platform"
+
 - title: "Nova Platform"
   icon: "🚀"
   description: "Led end-to-end delivery of the Nova enterprise SaaS platform, directing cross-functional engineering teams of 15+ professionals. Architected solutions across React, Node.js, NoSQL, and AWS ecosystems ensuring scalability and operational excellence."
@@ -35,42 +84,3 @@
   github: ""
   live: ""
   highlight: "Enhanced operational efficiency through AI automation"
-
-- title: "Enterprise SaaS Architecture"
-  icon: "🏗️"
-  description: "Designed and delivered scalable enterprise SaaS applications implementing secure authentication & authorization, optimized GraphQL/REST APIs, and modern frontend architecture for enterprise-grade performance and maintainability."
-  tech:
-    - Next.js
-    - NestJS
-    - GraphQL
-    - TypeScript
-    - PostgreSQL
-  github: ""
-  live: ""
-  highlight: "Reduced production defects by 30% through enhanced QA processes"
-
-- title: "AI Workflow Automation"
-  icon: "⚡"
-  description: "Developed AI-powered workflow automation systems and AI assistants using Prompt Engineering and LLMs. Built intelligent features that automated business processes, improving team productivity and reducing manual overhead."
-  tech:
-    - OpenAI
-    - Prompt Engineering
-    - Node.js
-    - React.js
-    - AWS
-  github: ""
-  live: ""
-  highlight: "20% improvement in engineering team productivity"
-
-- title: "Frontend Engineering Platform"
-  icon: "💻"
-  description: "Led frontend teams in establishing standardized development methodologies and best practices. Implemented performance optimization strategies resulting in significantly improved user experience across multiple enterprise products."
-  tech:
-    - React.js
-    - TypeScript
-    - Redux
-    - GraphQL
-    - CSS3
-  github: ""
-  live: ""
-  highlight: "35% increase in sprint predictability through effective management"
