@@ -61,6 +61,152 @@ description: "Senior Full Stack Engineer and Technical Leader with 13+ years of 
   </div>
 </section>
 
+<!-- ABOUT SECTION -->
+<section class="about section" id="about">
+  <div class="container">
+    <div class="section__header">
+      <span class="section__label">Who I Am</span>
+      <h2 class="section__title">About <span class="gradient-text">Me</span></h2>
+    </div>
+    <div class="about__grid">
+      <div class="about__image-wrapper reveal">
+        <div class="about__image-frame">
+          <img
+            src="{{ '/assets/images/rahul-jaggi.png' | relative_url }}"
+            alt="Rahul Jaggi — Senior Full Stack Engineer"
+            class="about__photo"
+            width="260"
+            height="260"
+            loading="eager"
+          >
+          <div class="about__image-deco deco-1"></div>
+          <div class="about__image-deco deco-2"></div>
+        </div>
+        <div class="about__badges">
+          <div class="about__badge">
+            <span class="about__badge-icon">📍</span>
+            <span>Gurugram, Haryana, India</span>
+          </div>
+          <div class="about__badge">
+            <span class="about__badge-icon">⚡</span>
+            <span>Immediate Joiner</span>
+          </div>
+          <div class="about__badge about__badge--lang">
+            <span class="about__badge-icon">🗣️</span>
+            <span>Hindi &amp; English</span>
+          </div>
+        </div>
+      </div>
+      <div class="about__content reveal">
+        <p class="about__text">
+          I'm a <strong>Senior Full Stack Engineer and Technical Leader</strong> with 13+ years of experience designing, architecting, and delivering scalable enterprise SaaS applications, web platforms, mobile applications, and AI-powered solutions.
+        </p>
+        <p class="about__text">
+          My expertise spans the full software development lifecycle with strong proficiency in <strong>React.js, Next.js, Node.js, NestJS, React Native, TypeScript, REST APIs, GraphQL</strong>, and modern frontend architecture. I've led cross-functional teams of 15+ engineers and driven Agile transformations.
+        </p>
+        <p class="about__text">
+          I also have practical experience building <strong>AI-powered applications</strong> using Generative AI, LLMs, Prompt Engineering, RAG, and OpenAI APIs — including call transcription, sentiment analysis, and workflow automation.
+        </p>
+        <div class="about__roles">
+          <span class="role-pill">Senior Full Stack Engineer</span>
+          <span class="role-pill">Technical Lead</span>
+          <span class="role-pill">Staff Engineer</span>
+          <span class="role-pill">Engineering Manager</span>
+          <span class="role-pill">Solution Architect</span>
+        </div>
+        <a href="{{ '/Rahul_.pdf' | relative_url }}" class="btn btn--primary" target="_blank" download>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download Resume
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS SECTION -->
+<section class="skills section section--alt" id="skills">
+  <div class="container">
+    <div class="section__header">
+      <span class="section__label">Tech Stack</span>
+      <h2 class="section__title">Skills &amp; <span class="gradient-text">Technologies</span></h2>
+    </div>
+    <div class="skills__grid">
+      {% for category in site.data.skills %}
+      <div class="skill-category reveal">
+        <div class="skill-category__icon">{{ category.icon }}</div>
+        <h3 class="skill-category__title">{{ category.name }}</h3>
+        <div class="skill-tags">
+          {% for skill in category.items %}
+          <span class="skill-tag">{{ skill }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE SECTION -->
+<section class="experience section" id="experience">
+  <div class="container">
+    <div class="section__header">
+      <span class="section__label">Career Journey</span>
+      <h2 class="section__title">Work <span class="gradient-text">Experience</span></h2>
+    </div>
+    <div class="timeline">
+      {% for job in site.data.experience %}
+      <div class="timeline__company reveal">
+        <div class="timeline__company-header">
+          <div class="timeline__company-logo">{{ job.logo }}</div>
+          <div>
+            <h3 class="timeline__company-name">{{ job.company }}</h3>
+            {% if job.total %}<span class="timeline__company-duration">{{ job.total }}</span>{% endif %}
+          </div>
+        </div>
+        <div class="timeline__roles">
+          {% for role in job.roles %}
+          <div class="timeline__role">
+            <div class="timeline__role-header">
+              <div class="timeline__dot"></div>
+              <div class="timeline__role-info">
+                <h4 class="timeline__role-title">{{ role.title }}</h4>
+                <div class="timeline__role-meta">
+                  <span class="timeline__period">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    {{ role.period }}
+                  </span>
+                  <span class="timeline__duration">{{ role.duration }}</span>
+                  {% if role.location %}
+                  <span class="timeline__location">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    {{ role.location }}
+                  </span>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+            <div class="timeline__role-body">
+              <p class="timeline__desc">{{ role.description }}</p>
+              {% if role.achievements.size > 0 %}
+              <ul class="timeline__achievements">
+                {% for achievement in role.achievements %}
+                <li class="timeline__achievement">
+                  <span class="achievement-arrow">→</span>
+                  {{ achievement }}
+                </li>
+                {% endfor %}
+              </ul>
+              {% endif %}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 <!-- PROJECTS SECTION -->
 <section class="projects section section--alt" id="projects">
   <div class="container">
@@ -90,9 +236,7 @@ description: "Senior Full Stack Engineer and Technical Leader with 13+ years of 
             </a>
           </div>
         </div>
-        <h3 class="project-card__title">
-          <a href="{{ target_url }}" target="_blank" rel="noopener" class="project-card__title-link">{{ project.title }}</a>
-        </h3>
+        <h3 class="project-card__title"><a href="{{ target_url }}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;">{{ project.title }}</a></h3>
         <p class="project-card__desc">{{ project.description }}</p>
         {% if project.highlight %}
         <div class="project-card__highlight">
@@ -105,8 +249,8 @@ description: "Senior Full Stack Engineer and Technical Leader with 13+ years of 
           <span class="tech-tag">{{ tech }}</span>
           {% endfor %}
         </div>
-        <div class="project-card__footer">
-          <a href="{{ target_url }}" target="_blank" rel="noopener" class="btn btn--primary btn--sm project-open-btn">
+        <div class="project-card__footer" style="margin-top:auto;padding-top:16px;border-top:1px solid var(--color-border);">
+          <a href="{{ target_url }}" target="_blank" rel="noopener" class="btn btn--primary btn--sm" style="width:100%;justify-content:center;">
             Open Full Interface ↗
           </a>
         </div>
@@ -116,3 +260,138 @@ description: "Senior Full Stack Engineer and Technical Leader with 13+ years of 
   </div>
 </section>
 
+<!-- EDUCATION & CERTIFICATIONS -->
+<section class="edu-cert section" id="education">
+  <div class="container">
+    <div class="section__header">
+      <span class="section__label">Background</span>
+      <h2 class="section__title">Education &amp; <span class="gradient-text">Certifications</span></h2>
+    </div>
+    <div class="edu-cert__grid">
+      <div class="edu-cert__col reveal">
+        <h3 class="edu-cert__col-title">
+          <span>🎓</span> Education
+        </h3>
+        <div class="edu-list">
+          {% for edu in site.data.education %}
+          <div class="edu-item">
+            <div class="edu-item__icon">{{ edu.icon }}</div>
+            <div class="edu-item__content">
+              <h4 class="edu-item__degree">{{ edu.degree }}</h4>
+              <p class="edu-item__field">{{ edu.field }}</p>
+              <p class="edu-item__institution">{{ edu.institution }}{% if edu.period %} · {{ edu.period }}{% endif %}</p>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="edu-cert__col reveal">
+        <h3 class="edu-cert__col-title">
+          <span>🏅</span> Certifications
+        </h3>
+        <div class="cert-list">
+          {% for cert in site.data.certifications %}
+          <div class="cert-item">
+            <div class="cert-item__icon">{{ cert.icon }}</div>
+            <div class="cert-item__content">
+              <h4 class="cert-item__name">{{ cert.name }}</h4>
+              <p class="cert-item__issuer">{{ cert.issuer }}</p>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        <h3 class="edu-cert__col-title" style="margin-top: 2.5rem;">
+          <span>🌐</span> Languages
+        </h3>
+        <div class="lang-list">
+          <div class="lang-item">
+            <span class="lang-name">Hindi</span>
+            <span class="lang-level">Native</span>
+          </div>
+          <div class="lang-item">
+            <span class="lang-name">English</span>
+            <span class="lang-level">Professional</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- CONTACT SECTION -->
+<section class="contact section" id="contact">
+  <div class="container">
+    <div class="section__header">
+      <span class="section__label">Get In Touch</span>
+      <h2 class="section__title">Let's <span class="gradient-text">Connect</span></h2>
+    </div>
+    <div class="contact__grid">
+      <div class="contact__info reveal">
+        <p class="contact__text">
+          I'm currently open to <strong>Senior Full Stack Engineer, Technical Lead, Staff Engineer, Engineering Manager,</strong> and <strong>Solution Architect</strong> opportunities. I'm an Immediate Joiner — let's talk!
+        </p>
+        <div class="contact__items">
+          <a href="mailto:jaggi.rahul123@gmail.com" class="contact__item" id="contact-email">
+            <div class="contact__item-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <span class="contact__item-label">Email</span>
+              <span class="contact__item-value">jaggi.rahul123@gmail.com</span>
+            </div>
+          </a>
+          <a href="tel:+919999638398" class="contact__item" id="contact-phone">
+            <div class="contact__item-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.09 6.09l.95-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div>
+              <span class="contact__item-label">Phone</span>
+              <span class="contact__item-value">+91 9999638398</span>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/rahul-jaggi-9a160379" target="_blank" rel="noopener" class="contact__item" id="contact-linkedin">
+            <div class="contact__item-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </div>
+            <div>
+              <span class="contact__item-label">LinkedIn</span>
+              <span class="contact__item-value">rahul-jaggi-9a160379</span>
+            </div>
+          </a>
+          <div class="contact__item contact__item--location">
+            <div class="contact__item-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <span class="contact__item-label">Location</span>
+              <span class="contact__item-value">Gurugram, Haryana, India</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <form class="contact__form reveal" id="contact-form" action="https://formspree.io/f/jaggi.rahul123@gmail.com" method="POST">
+        <div class="form-group">
+          <label for="contact-name" class="form-label">Your Name</label>
+          <input type="text" id="contact-name" name="name" class="form-input" placeholder="John Doe" required>
+        </div>
+        <div class="form-group">
+          <label for="contact-email-input" class="form-label">Email Address</label>
+          <input type="email" id="contact-email-input" name="email" class="form-input" placeholder="john@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="contact-subject" class="form-label">Subject</label>
+          <input type="text" id="contact-subject" name="subject" class="form-input" placeholder="Job Opportunity / Collaboration" required>
+        </div>
+        <div class="form-group">
+          <label for="contact-message" class="form-label">Message</label>
+          <textarea id="contact-message" name="message" class="form-input form-textarea" placeholder="Tell me about the role or project..." rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--full" id="contact-submit-btn">
+          Send Message
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
