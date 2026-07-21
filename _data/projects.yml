@@ -10,7 +10,7 @@
     - Shadcn UI
     - Zustand
   github: "https://github.com/RahulJaggi/nextjs-enterprise-admin"
-  live: "https://nextjs-enterprise-admin-demo.vercel.app"
+  live: ""
   highlight: "Production-ready scalable feature-based admin architecture"
 
 - slug: "vertex-ui"
@@ -23,7 +23,7 @@
     - Tailwind CSS
     - Storybook
   github: "https://github.com/RahulJaggi/vertex-ui"
-  live: "https://vertex-ui-storybook.vercel.app"
+  live: ""
   highlight: "Enterprise component library for modern web applications"
 
 - slug: "enterprise-saas-dashboard"
@@ -36,7 +36,7 @@
     - Tailwind CSS
     - React
   github: "https://github.com/RahulJaggi/enterprise-saas-dashboard"
-  live: "https://enterprise-saas-dashboard-demo.vercel.app"
+  live: ""
   highlight: "Scalable SaaS analytics and management dashboard"
 
 - slug: "kashio"
