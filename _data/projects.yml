@@ -1,4 +1,5 @@
-- title: "Next.js Enterprise Admin"
+- slug: "nextjs-enterprise-admin"
+  title: "Next.js Enterprise Admin"
   icon: "⚙️"
   description: "Production-ready Enterprise Admin Panel built with Next.js 15, React 19, TypeScript, Tailwind CSS, Shadcn UI, Zustand, TanStack Query, and scalable feature-based architecture."
   tech:
@@ -9,10 +10,11 @@
     - Shadcn UI
     - Zustand
   github: "https://github.com/RahulJaggi/nextjs-enterprise-admin"
-  live: ""
+  live: "https://nextjs-enterprise-admin-demo.vercel.app"
   highlight: "Production-ready scalable feature-based admin architecture"
 
-- title: "Vertex UI"
+- slug: "vertex-ui"
+  title: "Vertex UI"
   icon: "🎨"
   description: "Enterprise-grade React Component Library built with React, TypeScript, Tailwind CSS, and Storybook."
   tech:
@@ -21,10 +23,11 @@
     - Tailwind CSS
     - Storybook
   github: "https://github.com/RahulJaggi/vertex-ui"
-  live: ""
+  live: "https://vertex-ui-storybook.vercel.app"
   highlight: "Enterprise component library for modern web applications"
 
-- title: "Enterprise SaaS Dashboard"
+- slug: "enterprise-saas-dashboard"
+  title: "Enterprise SaaS Dashboard"
   icon: "📊"
   description: "Enterprise SaaS Dashboard built with Next.js, TypeScript, Tailwind CSS, and modern web standards."
   tech:
@@ -33,10 +36,11 @@
     - Tailwind CSS
     - React
   github: "https://github.com/RahulJaggi/enterprise-saas-dashboard"
-  live: ""
+  live: "https://enterprise-saas-dashboard-demo.vercel.app"
   highlight: "Scalable SaaS analytics and management dashboard"
 
-- title: "Kashio"
+- slug: "kashio"
+  title: "Kashio"
   icon: "💳"
   description: "Financial management & payment integration platform."
   tech:
@@ -47,9 +51,10 @@
   live: ""
   highlight: "Payment integration & financial management platform"
 
-- title: "Nova Platform"
+- slug: "nova-platform"
+  title: "Nova Platform"
   icon: "🚀"
-  description: "Led end-to-end delivery of the Nova enterprise SaaS platform, directing cross-functional engineering teams of 15+ professionals. Architected solutions across React, Node.js, NoSQL, and AWS ecosystems ensuring scalability and operational excellence."
+  description: "Led end-to-end delivery of the Nova enterprise SaaS platform, directing cross-functional engineering teams of 15+ professionals. Architected solutions across React, Node.js, NoSQL, and AWS ecosystems."
   tech:
     - React.js
     - Node.js
@@ -60,9 +65,10 @@
   live: ""
   highlight: "Accelerated delivery timelines by 25% through Agile transformation"
 
-- title: "Connect App"
+- slug: "connect-app"
+  title: "Connect App"
   icon: "📱"
-  description: "Spearheaded development and delivery of the Connect mobile application using React Native. Established a scalable mobile architecture, drove engineering optimizations, and significantly improved application performance and user experience."
+  description: "Spearheaded development and delivery of the Connect mobile application using React Native. Established a scalable mobile architecture, drove engineering optimizations, and significantly improved performance."
   tech:
     - React Native
     - JavaScript
@@ -72,9 +78,10 @@
   live: ""
   highlight: "Improved application scalability and user satisfaction"
 
-- title: "AI-Powered Call Intelligence"
+- slug: "ai-call-intelligence"
+  title: "AI-Powered Call Intelligence"
   icon: "🎙️"
-  description: "Built intelligent AI features including call transcription, conversation summarization, and sentiment analysis using OpenAI APIs and LLMs. Leveraged Retrieval-Augmented Generation (RAG) to enhance customer engagement and operational efficiency."
+  description: "Built intelligent AI features including call transcription, conversation summarization, and sentiment analysis using OpenAI APIs and LLMs with Retrieval-Augmented Generation (RAG)."
   tech:
     - OpenAI API
     - LLMs

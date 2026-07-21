@@ -61,6 +61,28 @@ description: "Senior Full Stack Engineer and Technical Leader with 13+ years of 
   </div>
 </section>
 
+<!-- PROJECT BROWSER INTERFACE MODAL -->
+<div class="project-modal" id="project-modal" aria-hidden="true" role="dialog" aria-modal="true">
+  <div class="project-modal__backdrop" id="project-modal-backdrop"></div>
+  <div class="project-modal__window">
+    <div class="project-modal__browser-bar">
+      <div class="project-modal__controls">
+        <span class="project-modal__dot project-modal__dot--red" id="modal-close-dot"></span>
+        <span class="project-modal__dot project-modal__dot--yellow"></span>
+        <span class="project-modal__dot project-modal__dot--green"></span>
+      </div>
+      <div class="project-modal__address-bar">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        <span id="modal-browser-url">https://preview.rahuljaggi.dev</span>
+      </div>
+      <button type="button" class="project-modal__close-btn" id="modal-close-btn" aria-label="Close Preview">&times;</button>
+    </div>
+    <div class="project-modal__body" id="modal-body">
+      <!-- Dynamic Project Interface Content Populated via JS -->
+    </div>
+  </div>
+</div>
+
 <!-- ABOUT SECTION -->
 <section class="about section" id="about">
   <div class="container">
@@ -216,7 +238,7 @@ description: "Senior Full Stack Engineer and Technical Leader with 13+ years of 
     </div>
     <div class="projects__grid">
       {% for project in site.data.projects %}
-      <div class="project-card reveal" id="project-{{ forloop.index }}">
+      <div class="project-card reveal" id="project-{{ forloop.index }}" data-slug="{{ project.slug }}">
         <div class="project-card__header">
           <div class="project-card__icon">{{ project.icon }}</div>
           <div class="project-card__links">
@@ -244,6 +266,11 @@ description: "Senior Full Stack Engineer and Technical Leader with 13+ years of 
           {% for tech in project.tech %}
           <span class="tech-tag">{{ tech }}</span>
           {% endfor %}
+        </div>
+        <div class="project-card__footer">
+          <button type="button" class="btn btn--ghost btn--sm project-preview-btn" data-open-project="{{ project.slug }}">
+            Preview Interface ↗
+          </button>
         </div>
       </div>
       {% endfor %}
